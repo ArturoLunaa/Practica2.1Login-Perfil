@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/blue.css">
+    <link id="theme" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css">
+    <!--Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--SLider JS Function-->
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Maquetación</title>
+
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/locale/es.min.js"></script>
+    
+</head>
+
+<body>
+    <div id="theme-selector">
+        <div id="to-red"></div>
+        <div id="to-green"></div>
+        <div id="to-blue"></div>
+    </div>
+    <!--Contenedor Global-->
+    <section id = "global">
+        <!--Contenido-->
+        <header>
+            <div id="logo">
+                Arturo Luna
+               
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="biografia.html">Biografía</a></li>
+                    <li><a href="portafolio.html">Portafolio</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                </ul>
+            </nav>
+        </header>
+        Portafolio
+        <section id = "contenido">
+            <div id = "posts">
+                <!--Artículos dinamicos desde JSON-->
+            </div>
+            <aside id = "sidebar">
+
+                <div id  = "about">
+                    <h4> ¿Quien Soy?</h4>
+                    <img src="img/arturo.jpeg" alt="foto de rockstar">
+                    <p>
+                        Miguel Gómez currently works at the Division of postgraduate studies and research, Tecnológico Nacional de México/Instituto Tecnológico de León. Miguel does research in Computer Science, Biomedical Engineering, Pattern Recognition and Machine Learning.
+                    </p>
+
+                </div>
+                <div id = "login">
+                    <h4><span>Registrate</span></h4>
+                    <form>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="form_name">
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="">
+                        <label for="password">contraseña</label>
+                        <input type="password" name="password" id="">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+                <!--Footer-->
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+    </section>
+    <footer>J. Arturo Luna G. &copy;   
+        <a href="https://www.instagram.com/arturolunaago/"> <i class="fab fa-instagram-square" style="font-size:30px;color:black;""></i></a>
+        <a href="https://twitter.com/home"> <i class="fab fa-twitter-square" style="font-size:30px;color:black;"> </i></a>
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square" style="font-size:30px;color:black"></i></a>
+    
+    </footer>
+</body>
+
+</html>
